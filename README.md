@@ -3,10 +3,10 @@ Programming of Multimedia Extensions (SSE / AVX)
 Comparison between programming on AVX intrinsics between programming on C++ scalar. The other comparison is between ICC 
 and GCC compiler.
 
-Exercise 1. Given an n*n matrix in the RGB format, transform each of its pixels to the YUV format according to the following equations on C++ & AVX:
-Y = 0.299*R + 0.587*G + 0.114*B
-U = -0.147*R - 0.289*G + 0.436*B = 0.492*(B-Y)
-V = 0.615*R - 0.515*G - 0.100*B = 0.877*(R-Y)
+Exercise 1. Given an n*n matrix in the RGB format, transform each of its pixels to the YUV format according to the following equations on C++ & AVX:<br/>
+Y = 0.299*R + 0.587*G + 0.114*B <br/>
+U = -0.147*R - 0.289*G + 0.436*B = 0.492*(B-Y) <br/>
+V = 0.615*R - 0.515*G - 0.100*B = 0.877*(R-Y) <br/>
 
 Exercise 2. In the face of the following General Elections, we are charged with implementing an application 
 that is capable of totalizing, as quickly as possible, the ballots sent in the hours after 
