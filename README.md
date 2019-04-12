@@ -1,4 +1,4 @@
-# sse-avx
+# Comparison between Scalar C++ and AVX/SSE
 Programming of Multimedia Extensions (SSE / AVX)
 Comparison between programming on AVX intrinsics between programming on C++ scalar. The other comparison is between ICC 
 and GCC compiler.
